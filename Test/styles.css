@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+    background-color: #4793AF;
+}
+
+h1 {
+    color: #DD5746;
+}
+
+p {
+    color: #FFC470;
+}
+
+a {
+    background-color: #DD5746;
+    height: 25px;
+    width: 100px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    transition: width 1s, background-color .5s, color 1s, height 1s, text-decoration 1s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+a:hover {
+    color: #DD5746;
+    height: 30px;
+    width: 150px;
+    background-color: #FFC470;
+    text-decoration: line-through;
+}
+
+
